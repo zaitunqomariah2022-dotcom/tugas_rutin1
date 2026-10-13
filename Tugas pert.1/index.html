@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Landing page pribadi Zaitun Qomariah, mahasiswa Ilmu Komputer Universitas Negeri Medan.">
+
+    <meta name="author"
+          content="Zaitun Qomariah">
+
+    <!-- Open Graph -->
+    <meta property="og:title"
+          content="Landing Page Pribadi - Zaitun Qomariah">
+
+    <meta property="og:description"
+          content="Profil pribadi Zaitun Qomariah, mahasiswa Ilmu Komputer UNIMED.">
+
+    <meta property="og:type"
+          content="website">
+
+    <title>Landing Page Pribadi - Zaitun Qomariah</title>
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+
+        <h1>Zaitun Qomariah</h1>
+
+        <p>
+            Mahasiswa Ilmu Komputer
+            Universitas Negeri Medan
+        </p>
+
+    </header>
+
+
+    <!-- NAVIGASI -->
+    <nav aria-label="Navigasi utama">
+
+        <a href="#tentang">Tentang Saya</a> |
+        <a href="#pendidikan">Pendidikan</a> |
+        <a href="#hobi">Hobi</a> |
+        <a href="#cita-cita">Cita-Cita</a> |
+        <a href="#kontak">Kontak</a>
+
+    </nav>
+
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- PROFIL -->
+        <section id="tentang">
+
+            <h2>Tentang Saya</h2>
+
+            <figure>
+
+                <img
+                    src="zzz.jpeg"
+                    alt="Foto Zaitun Qomariah"
+                    width="250">
+
+                <figcaption>
+                    Zaitun Qomariah -
+                    Mahasiswa Ilmu Komputer UNIMED
+                </figcaption>
+
+            </figure>
+
+            <p>
+                Nama saya <strong>Zaitun Qomariah</strong>.
+                Saya merupakan mahasiswa
+                <strong>Universitas Negeri Medan</strong>
+                Program Studi Ilmu Komputer,
+                Fakultas MIPA.
+            </p>
+
+            <p>
+                Saya tertarik mempelajari teknologi,
+                pemrograman, dan pengembangan website.
+            </p>
+
+        </section>
+
+
+        <!-- PENDIDIKAN -->
+        <section id="pendidikan">
+
+            <h2>Pendidikan</h2>
+
+            <article>
+
+                <h3>Universitas Negeri Medan</h3>
+
+                <p>
+                    Program Studi:
+                    Ilmu Komputer
+                </p>
+
+                <p>
+                    Fakultas:
+                    MIPA
+                </p>
+
+                <p>
+                    Pendidikan:
+                    <time datetime="2013">2013</time>
+                    -
+                    <time datetime="2026">sekarang</time>
+                </p>
+
+            </article>
+
+        </section>
+
+
+        <!-- HOBI -->
+        <section id="hobi">
+
+            <h2>Hobi</h2>
+
+            <article>
+
+                <h3>Bermain Bola Voli</h3>
+
+                <p>
+                    Salah satu hobi saya adalah
+                    bermain bola voli.
+                    Saya menikmati kegiatan ini
+                    untuk mengisi waktu luang.
+                </p>
+
+            </article>
+
+        </section>
+
+
+        <!-- CITA-CITA -->
+        <section id="cita-cita">
+
+            <h2>Cita-Cita</h2>
+
+            <article>
+
+                <h3>Berkarier di Bidang Perkantoran</h3>
+
+                <p>
+                    Saya memiliki cita-cita untuk
+                    bekerja di lingkungan perkantoran
+                    dan menggunakan ilmu komputer
+                    yang saya pelajari selama kuliah.
+                </p>
+
+            </article>
+
+        </section>
+
+
+        <!-- ASIDE -->
+        <aside>
+
+            <h2>Informasi Singkat</h2>
+
+            <ul>
+
+                <li>
+                    Nama: Zaitun Qomariah
+                </li>
+
+                <li>
+                    Universitas:
+                    Universitas Negeri Medan
+                </li>
+
+                <li>
+                    Program Studi:
+                    Ilmu Komputer
+                </li>
+
+                <li>
+                    Fakultas: MIPA
+                </li>
+
+                <li>
+                    Hobi: Bermain bola voli
+                </li>
+
+            </ul>
+
+        </aside>
+
+
+        <!-- FORM -->
+        <section id="kontak">
+
+            <h2>Hubungi Saya</h2>
+
+            <form action="#" method="post">
+
+                <p>
+
+                    <label for="nama">
+                        Nama:
+                    </label>
+
+                    <br>
+
+                    <input
+                        type="text"
+                        id="nama"
+                        name="nama"
+                        placeholder="Masukkan nama"
+                        required>
+
+                </p>
+
+
+                <p>
+
+                    <label for="email">
+                        Email:
+                    </label>
+
+                    <br>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="contoh@email.com"
+                        required>
+
+                </p>
+
+
+                <p>
+
+                    <label for="tanggal">
+                        Tanggal:
+                    </label>
+
+                    <br>
+
+                    <input
+                        type="date"
+                        id="tanggal"
+                        name="tanggal"
+                        required>
+
+                </p>
+
+
+                <p>
+
+                    <label for="pesan">
+                        Pesan:
+                    </label>
+
+                    <br>
+
+                    <textarea
+                        id="pesan"
+                        name="pesan"
+                        rows="5"
+                        cols="40"
+                        placeholder="Tuliskan pesan..."
+                        required></textarea>
+
+                </p>
+
+
+                <button type="submit">
+                    Kirim Pesan
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            &copy;
+            <time datetime="2026">2026</time>
+            Zaitun Qomariah.
+            Semua hak dilindungi.
+        </p>
+
+        <p>
+            Email:
+            <a href="mailto:zaitunqomariah2022@gmail.com">
+                zaitunqomariah2022@gmail.com
+            </a>
+        </p>
+
+        <p>
+            Instagram:
+            <a
+                href="https://www.instagram.com/zaitunqmrrhh_/"
+                target="_blank"
+                rel="noopener noreferrer">
+                @zaitunqmrrhh_
+            </a>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
